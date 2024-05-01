@@ -1,15 +1,12 @@
 package HWpojo.HW05;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
-
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.equalTo;
 import static org.testng.AssertJUnit.assertEquals;
-import static org.testng.AssertJUnit.assertTrue;
 
 public class task05 extends PetStoreBaseUrl {
 

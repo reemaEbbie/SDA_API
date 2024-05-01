@@ -15,17 +15,17 @@ public class UserPutRequest extends PetStoreBaseUrl {
     public void putRequest(){
 
         //SetUrl
-        spec.pathParams("first","user","second","Ralnakhebi2114");
+        spec.pathParams("first","user","second","ReemaAlebbie");
         //Set expected Data
         String expectedStr = """
                 {
-                  "id": 0,
-                  "username": "Ralnakhebi2114",
-                  "firstName": "Reemah",
-                  "lastName": "alnakhebi",
-                  "email": "test@test",
-                  "password": "5482",
-                  "phone": "12456987",
+                  "id": 1,
+                  "username": "ReemaAlebbie",
+                  "firstName": "Reema",
+                  "lastName": "alebbie",
+                  "email": "rema@gmail",
+                  "password": "1234",
+                  "phone": "9876543",
                   "userStatus": 0
                 }""";
 
